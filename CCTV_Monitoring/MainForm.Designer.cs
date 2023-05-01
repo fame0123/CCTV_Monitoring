@@ -151,6 +151,7 @@ namespace CCTV_Monitoring
             // 
             // delayTimer
             // 
+            this.delayTimer.Interval = 1000;
             this.delayTimer.Tick += new System.EventHandler(this.delayTimer_Tick);
             // 
             // lbl_countDownTime
@@ -209,7 +210,6 @@ namespace CCTV_Monitoring
             this.txt_location.Name = "txt_location";
             this.txt_location.Size = new System.Drawing.Size(164, 27);
             this.txt_location.TabIndex = 5;
-            this.txt_location.Text = "Test Data";
             // 
             // label2
             // 
